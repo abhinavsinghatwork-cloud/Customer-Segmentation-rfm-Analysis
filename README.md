@@ -2,9 +2,9 @@
 
 An end-to-end customer segmentation project using **MySQL** and **Power BI**. The project groups customers by purchasing behaviour using Recency, Frequency, and Monetary (RFM) metrics, then presents the segments in an interactive dashboard.
 
-> **Project status:** Project assets are included in this repository: SQL scripts, an anonymised customer-level CSV, the Power BI report, dashboard screenshot, and business recommendations.
 
-![Customer Segmentation RFM Dashboard](Screenshots/dashboard_overview.jpg)
+![Customer Segmentation RFM Dashboard](<img width="1373" height="748" alt="Customer Segmentation(RFM) Analysis" src="https://github.com/user-attachments/assets/807b4967-52d6-402b-9e4f-636e5072e376" />
+)
 
 ## Business Problem
 
