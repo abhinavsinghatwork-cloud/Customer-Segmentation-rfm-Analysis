@@ -2,7 +2,7 @@
 
 An end-to-end customer segmentation project using **MySQL** and **Power BI**. The project groups customers by purchasing behaviour using Recency, Frequency, and Monetary (RFM) metrics, then presents the segments in an interactive dashboard.
 
-> **Project status:** Dashboard prototype and segment-level analysis completed. Add the original SQL scripts, source dataset, and Power BI `.pbix` file to the folders in this repository before treating this as a fully reproducible project.
+> **Project status:** Project assets are included in this repository: SQL scripts, an anonymised customer-level CSV, the Power BI report, dashboard screenshot, and business recommendations.
 
 ![Customer Segmentation RFM Dashboard](Screenshots/dashboard_overview.jpg)
 
@@ -30,7 +30,7 @@ The current segmentation output contains four groups:
 |---|---:|---:|
 | Champions | 39 | 18.06% |
 | Loyal | 23 | 10.65% |
-| At Risk | 118 | 54.63% |
+| At-Risk | 118 | 54.63% |
 | Lost | 36 | 16.67% |
 | **Total** | **216** | **100%** |
 
@@ -48,9 +48,9 @@ The Power BI report includes:
 6. Customer segment slicer
 7. Business insights and recommended actions
 
-**Power BI file:** `PowerBI/Customer_Segmentation_RFM.pbix` (to be added)
+**Power BI file:** `PowerBI/Customer-Segment(RFM)-Analysis.pbix`
 
-**Dashboard screenshots:** see `Screenshots/` (to be added)
+**Dashboard screenshot:** `Screenshots/dashboard_overview.jpg`
 
 ## Findings From the Current Dashboard
 
@@ -83,7 +83,7 @@ The Power BI report includes:
 
 ## Recommendations
 
-1. Prioritise targeted retention campaigns for At Risk customers, testing relevant incentives and messaging.
+1. Prioritise targeted retention campaigns for At-Risk customers, testing relevant incentives and messaging.
 2. Protect Champions with loyalty benefits, early access, or personalised engagement.
 3. Encourage Loyal customers to repeat purchase and explore relevant cross-sell or upsell opportunities.
 4. Use selective win-back campaigns for Lost customers; measure reactivation and campaign cost before scaling.
@@ -115,7 +115,7 @@ Customer-Segmentation-rfm-Analysis/
 4. Open the `.pbix` report and refresh the data.
 5. Validate the KPI counts, segment percentages, monetary totals, and average RFM metrics against SQL output.
 
-The SQL scripts, input dataset, and PBIX are pending addition, so the steps above are the intended reproducibility workflow rather than a claim that every asset is already included.
+The public dataset uses anonymised customer labels (for example, `CUST_001`) in place of the original numeric customer IDs. The SQL scripts document the RFM workflow; note that the setup script currently creates the `orders` table, while the RFM query also expects a `customers` table to exist.
 
 ## Data & Privacy
 
