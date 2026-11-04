@@ -4,6 +4,8 @@ An end-to-end customer segmentation project using **MySQL** and **Power BI**. Th
 
 > **Project status:** Dashboard prototype and segment-level analysis completed. Add the original SQL scripts, source dataset, and Power BI `.pbix` file to the folders in this repository before treating this as a fully reproducible project.
 
+![Customer Segmentation RFM Dashboard](Screenshots/dashboard_overview.jpg)
+
 ## Business Problem
 
 Businesses need to understand which customers provide the most value, which customers are becoming inactive, and where retention or win-back campaigns may have the greatest impact. RFM analysis provides a practical way to classify customers based on:
